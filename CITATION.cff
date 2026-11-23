@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or the CCLR/ECCLR datasets, please cite the paper."
+title: "Class-Consistent Pre-Augmentation Schemes for Single-Source Domain Generalisation in Plant Disease Classification"
+authors:
+  - family-names: Farooq
+    given-names: Adil
+    affiliation: "Maynooth University"
+  - family-names: Villing
+    given-names: Rudi
+    affiliation: "Maynooth University"
+license: MIT
