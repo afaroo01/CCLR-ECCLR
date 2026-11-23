@@ -1,0 +1,10 @@
+_base_: [_fewshot_base.yaml, ../../models/vit_tiny.yaml]
+name: fewshot_cclr_vit_10shot
+description: 8-way 10-shot Prototypical Network on the exp7_vit_cclr backbone; source = CCLR PlantVillage, target = PlantDoc.
+data:
+  source: plantvillage_cclr
+model:
+  pretrained: false   # weights come from the checkpoint below
+  checkpoint: ${output_dir}/exp7_vit_cclr/seed_{seed}/checkpoints/best.pt
+fewshot:
+  n_shot: 10

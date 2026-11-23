@@ -1,0 +1,6 @@
+_base_: [../../base.yaml, ../../models/efficientnet_b0.yaml]
+name: exp4_efficientnet_ecclr
+description: EfficientNet-B0 on ECCLR (extended CCLR, YOLO-augmented) PlantVillage.
+data:
+  source: plantvillage_ecclr
+  train_transform: autoaugment

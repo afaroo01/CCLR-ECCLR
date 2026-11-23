@@ -1,0 +1,8 @@
+_base_: [../../base.yaml, ../../models/vit_tiny.yaml]
+name: exp6_vit_cutmix
+description: ViT-Tiny on PlantVillage with timm default augmentation + CutMix.
+data:
+  source: plantvillage
+  train_transform: timm_train
+  eval_transform: timm_eval
+  batch_mixer: cutmix

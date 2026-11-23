@@ -1,0 +1,6 @@
+_base_: [../../base.yaml, ../../models/vit_tiny.yaml]
+name: exp7_vit_cclr
+description: ViT-Tiny on CCLR PlantVillage with AutoAugment.
+data:
+  source: plantvillage_cclr
+  train_transform: autoaugment

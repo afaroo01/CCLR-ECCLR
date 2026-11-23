@@ -1,0 +1,11 @@
+# ViT-Tiny/16 (timm, ImageNet-21k -> 1k weights) + the training recipe of exp5-8.
+model:
+  name: vit
+  variant: vit_tiny_patch16_224
+  pretrained: true
+
+train:
+  epochs: 25
+  optimizer: {name: adamw, lr: 1.0e-4, weight_decay: 0.0}
+  scheduler: {name: null}
+  early_stopping: {monitor: val_acc, patience: 5, min_delta: 0.0}

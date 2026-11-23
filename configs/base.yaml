@@ -1,0 +1,87 @@
+# Shared defaults for every experiment. Experiment files inherit this via `_base_`.
+# Any key can be overridden from the command line:  --set key.subkey=value
+
+seeds: [0, 1, 2, 3, 4]      # `plantdisease run` runs every seed and reports mean ± std
+output_dir: outputs
+device: auto                # auto | cpu | cuda | cuda:1 | mps
+deterministic: false        # true = bit-reproducible cuDNN (slower)
+eval_splits: [val, test, target]
+profile_inference: true
+
+# ---------------------------------------------------------------------------------------
+# Dataset locations. Change `paths.data_root` once, or override a single dataset with e.g.
+#   --set "datasets.plantdoc.roots=[/mnt/plantdoc/train,/mnt/plantdoc/test]"
+# Each root must contain one sub-folder per class.
+# ---------------------------------------------------------------------------------------
+paths:
+  data_root: data
+
+datasets:
+  plantvillage:             # original PlantVillage "color" images
+    roots: ["${paths.data_root}/plantvillage"]
+    class_map:
+      Apple___healthy: Apple___healthy
+      Apple___Cedar_apple_rust: Apple___rust
+      "Pepper,_bell___Bacterial_spot": Bell_pepper___bacterial_spot
+      "Pepper,_bell___healthy": Bell_pepper___healthy
+      Grape___Black_rot: Grape___black_rot
+      Grape___healthy: Grape___healthy
+      Tomato___healthy: Tomato___healthy
+      Tomato___Septoria_leaf_spot: Tomato___septoria_leaf_spot
+
+  plantvillage_cclr:        # Class-Consistent Leaf Recomposition (rembg-segmented) PlantVillage
+    roots: ["${paths.data_root}/plantvillage_cclr"]
+    class_map: null         # folders already use the canonical class names
+
+  plantvillage_ecclr:       # Extended CCLR (YOLO-augmented) PlantVillage
+    roots: ["${paths.data_root}/plant_village_ecclr"]
+    class_map: null
+
+  plantdoc:                 # cross-domain target: train + test folders are merged
+    roots: ["${paths.data_root}/plantdoc/train", "${paths.data_root}/plantdoc/test"]
+    class_map:
+      Apple_leaf: Apple___healthy
+      Apple_rust_leaf: Apple___rust
+      Bell_pepper_leaf: Bell_pepper___healthy
+      Bell_pepper_leaf_spot: Bell_pepper___bacterial_spot
+      grape_leaf: Grape___healthy
+      grape_leaf_black_rot: Grape___black_rot
+      Tomato_leaf: Tomato___healthy
+      Tomato_Septoria_leaf_spot: Tomato___septoria_leaf_spot
+
+data:
+  source: plantvillage
+  target: plantdoc
+  classes:
+    - Apple___healthy
+    - Apple___rust
+    - Bell_pepper___bacterial_spot
+    - Bell_pepper___healthy
+    - Grape___black_rot
+    - Grape___healthy
+    - Tomato___healthy
+    - Tomato___septoria_leaf_spot
+  image_size: 224
+  preresize: true
+  split_ratios: [0.7, 0.2, 0.1]   # train / val / test of the source dataset
+  split_seed: 42                  # fixed split across seeds; null = re-split with each seed
+  stratify: false
+  batch_size: 32
+  num_workers: 2
+  pin_memory: true            # only used on CUDA
+  train_transform: autoaugment
+  eval_transform: standard
+  rrc_scale: [0.75, 1.0]
+  batch_mixer: null
+
+xai:
+  enabled: true
+  splits: [test, target]
+  gradcam: true
+  tsne: true
+  confusion_matrix: true
+  training_curves: true
+  sample_grid: true
+  num_images: 16
+  tsne_max_samples: 2000
+  show: false

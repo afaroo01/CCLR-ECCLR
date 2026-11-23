@@ -1,0 +1,7 @@
+_base_: [../../base.yaml, ../../models/vit_tiny.yaml]
+name: exp8_vit_ecclr
+description: ViT-Tiny on ECCLR PlantVillage with AutoAugment and a wider random-resized-crop.
+data:
+  source: plantvillage_ecclr
+  train_transform: autoaugment
+  rrc_scale: [0.5, 1.0]

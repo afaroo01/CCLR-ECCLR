@@ -1,0 +1,6 @@
+_base_: [../../base.yaml, ../../models/efficientnet_b0.yaml]
+name: exp1_efficientnet_autoaugment
+description: EfficientNet-B0 trained on PlantVillage with ImageNet AutoAugment; tested on PlantDoc.
+data:
+  source: plantvillage
+  train_transform: autoaugment

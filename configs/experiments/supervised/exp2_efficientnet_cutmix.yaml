@@ -1,0 +1,7 @@
+_base_: [../../base.yaml, ../../models/efficientnet_b0.yaml]
+name: exp2_efficientnet_cutmix
+description: EfficientNet-B0 on PlantVillage with AutoAugment + CutMix (soft-label loss).
+data:
+  source: plantvillage
+  train_transform: autoaugment
+  batch_mixer: cutmix

@@ -1,0 +1,16 @@
+# Shared settings for few-shot (Prototypical Network) experiments.
+_base_: ../../base.yaml
+type: fewshot
+eval_splits: []          # few-shot uses fewshot.eval_splits instead
+fewshot:
+  n_way: null            # null = all 8 classes
+  n_shot: 5
+  n_query: 10
+  n_eval_tasks: 1000
+  eval_splits: [test, target]
+  transform: fewshot_basic   # as in the notebooks; `fewshot_standard` = deterministic + normalized
+  n_train_tasks: 0           # >0 enables episodic meta-training (uses `train:` settings)
+  n_val_tasks: 100
+xai:
+  gradcam: false
+  training_curves: false

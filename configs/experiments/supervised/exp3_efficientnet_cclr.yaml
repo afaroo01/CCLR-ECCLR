@@ -1,0 +1,6 @@
+_base_: [../../base.yaml, ../../models/efficientnet_b0.yaml]
+name: exp3_efficientnet_cclr
+description: EfficientNet-B0 on CCLR (class-consistent leaf recomposition) PlantVillage.
+data:
+  source: plantvillage_cclr
+  train_transform: autoaugment
