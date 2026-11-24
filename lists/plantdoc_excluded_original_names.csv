@@ -1,0 +1,95 @@
+local_image,original_plantdoc_image,hamming
+Apple___healthy/plantdoc_Apple_leaf_25.jpg,train/Apple leaf/leaves-isolated-on-white-background-picture-id537925565_k=6&m=537925565&s=612x612&w=0&h=Ogzc4YHTI4i4q9aiTIG6Zq2sAMv6xTKiDlCmYANlzK8=.jpg,0
+Apple___healthy/plantdoc_Apple_leaf_40.jpg,train/Apple leaf/green-leaf-picture-id177130309_b=1&k=6&m=177130309&s=612x612&w=0&h=VP3U0AM5j0fvQqOwuI5f7cmb2Ji88mVep0eoXQaJRfs=.jpg,0
+Apple___healthy/plantdoc_Apple_leaf_60.jpg,train/Apple leaf/depositphotos_27383223-stock-photo-apple-leaves.jpg,2
+Apple___healthy/plantdoc_Apple_leaf_68.jpg,train/Apple leaf/stock-photo-one-green-leaf-of-apple-tree-isolated-on-white-background-close-up-studio-photography-102522179.jpg,0
+Apple___healthy/plantdoc_Apple_leaf_7.jpg,test/Apple leaf/apple-leaf-isolated-white-background-56631026.jpg,2
+Apple___healthy/plantdoc_Apple_leaf_70.jpg,train/Apple leaf/20130519yellowingappleleaves.jpg,0
+Apple___healthy/plantdoc_Apple_leaf_72.jpg,train/Apple leaf/green-leaf-apple-tree-isolated-white-background-33032695.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_16.jpg,train/Apple rust leaf/car-apple1.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_2.jpg,test/Apple rust leaf/185161-004-EAF28842.jpg,2
+Apple___rust/plantdoc_Apple_rust_leaf_23.jpg,train/Apple rust leaf/DIsease-Pest-Management.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_34.jpg,train/Apple rust leaf/crab-apple-tree-leaves.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_35.jpg,train/Apple rust leaf/frog-eye-leaf-spot-on-crabapple-grabowski.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_39.jpg,train/Apple rust leaf/Cedar_apple_rust_on_crab_apple_leaf_showing_underside_cup.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_40.jpg,train/Apple rust leaf/car-apple9.jpg,2
+Apple___rust/plantdoc_Apple_rust_leaf_41.jpg,train/Apple rust leaf/cedar-apple-rust-gymnosporangium-juniperi-pustules-on-apple-leaf-lower-c99tfp.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_45.jpg,train/Apple rust leaf/Fig-17-Apple-rust-on-lower-surface-on-leaf-at-extreme.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_6.jpg,test/Apple rust leaf/20130519cedarapplerust.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_71.jpg,train/Apple rust leaf/car2.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_78.jpg,train/Apple rust leaf/Figure-1.-Typical-cedar-apple-rust-lesions-on-upper-surface-of-apple-leaf.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_83.jpg,train/Apple rust leaf/thumb-20130802_111648.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_85.jpg,train/Apple rust leaf/cd6bfd6bfbcac781bd496bf13845fb0f.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_89.jpg,train/Apple rust leaf/cedar_apple_rust_3.JPG_1362772840.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_9.jpg,test/Apple rust leaf/20130802_111632.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_92.jpg,train/Apple rust leaf/LIFH3.jpg,0
+Apple___rust/plantdoc_Apple_rust_leaf_95.jpg,,
+Bell_pepper___bacterial_spot/plantdoc_Bell_pepper_leaf_spot_12.jpg,train/Bell_pepper leaf spot/bacterialCanker08-129kre6-on-pepper-50-QUALITY-1tzxf2r.jpg,0
+Bell_pepper___bacterial_spot/plantdoc_Bell_pepper_leaf_spot_3.jpg,test/Bell_pepper leaf spot/bacterial_leaf_spot_pepper_l.jpg,0
+Bell_pepper___bacterial_spot/plantdoc_Bell_pepper_leaf_spot_32.jpg,,
+Bell_pepper___bacterial_spot/plantdoc_Bell_pepper_leaf_spot_33.jpg,,
+Bell_pepper___bacterial_spot/plantdoc_Bell_pepper_leaf_spot_34.jpg,,
+Bell_pepper___bacterial_spot/plantdoc_Bell_pepper_leaf_spot_39.jpg,,
+Bell_pepper___bacterial_spot/plantdoc_Bell_pepper_leaf_spot_49.jpg,train/Bell_pepper leaf spot/figure1.jpg,0
+Bell_pepper___bacterial_spot/plantdoc_Bell_pepper_leaf_spot_52.jpg,train/Bell_pepper leaf spot/bacterial_leaf_spot_pepper_plant_l.jpg,0
+Bell_pepper___bacterial_spot/plantdoc_Bell_pepper_leaf_spot_57.jpg,train/Bell_pepper leaf spot/bacterial-leaf-spot-on-peppers.jpg,0
+Bell_pepper___bacterial_spot/plantdoc_Bell_pepper_leaf_spot_62.jpg,train/Bell_pepper leaf spot/pepper_phytophtera12x500.jpg,0
+Bell_pepper___bacterial_spot/plantdoc_Bell_pepper_leaf_spot_73.jpg,,
+Grape___black_rot/plantdoc_grape_leaf_black_rot_14.jpg,train/grape leaf black rot/black_rot-grape_leaf.jpeg.jpg,0
+Grape___black_rot/plantdoc_grape_leaf_black_rot_29.jpg,train/grape leaf black rot/image66.jpg,0
+Grape___black_rot/plantdoc_grape_leaf_black_rot_33.jpg,train/grape leaf black rot/black-rot-of-grape_figure-1.jpg,0
+Grape___black_rot/plantdoc_grape_leaf_black_rot_47.jpg,,
+Grape___black_rot/plantdoc_grape_leaf_black_rot_5.jpg,test/grape leaf black rot/5-29black-rot-chardRR.jpg,0
+Grape___black_rot/plantdoc_grape_leaf_black_rot_70.jpg,train/grape leaf black rot/Guignardia_bidwellii_%28black_rot%29_on_grape_1.jpg,0
+Grape___healthy/plantdoc_grape_leaf_10.jpg,test/grape leaf/0000.jpg,0
+Grape___healthy/plantdoc_grape_leaf_16.jpg,train/grape leaf/grape+leaves.JPG.jpg,0
+Grape___healthy/plantdoc_grape_leaf_29.jpg,train/grape leaf/grape-leaves-up-close.jpg,0
+Grape___healthy/plantdoc_grape_leaf_34.jpg,,
+Grape___healthy/plantdoc_grape_leaf_37.jpg,train/grape leaf/grape-leaves-2.jpg,0
+Grape___healthy/plantdoc_grape_leaf_39.jpg,train/grape leaf/6cy5kMMEi.jpg,0
+Grape___healthy/plantdoc_grape_leaf_40.jpg,train/grape leaf/grape2b.jpg,0
+Grape___healthy/plantdoc_grape_leaf_58.jpg,train/grape leaf/0g.jpg,0
+Grape___healthy/plantdoc_grape_leaf_61.jpg,train/grape leaf/grape-leaf-detail-1457175.jpg,0
+Tomato___healthy/plantdoc_Tomato_leaf_12.jpg,,
+Tomato___healthy/plantdoc_Tomato_leaf_26.jpg,train/Tomato leaf/L.peruv-assort.jpg,2
+Tomato___healthy/plantdoc_Tomato_leaf_29.jpg,train/Tomato leaf/single-a-green-leaf-of-tomato-picture-id496662675_k=6&m=496662675&s=612x612&w=0&h=6zKfv022H_9cLQSIR_kpcOAlTeg1eIVtLBbc80PQA7Y=.jpg,4
+Tomato___healthy/plantdoc_Tomato_leaf_38.jpg,train/Tomato leaf/2015-09-17-01.jpg,0
+Tomato___healthy/plantdoc_Tomato_leaf_39.jpg,train/Tomato leaf/Leaves-of-Tomato.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_12.jpg,train/Tomato Septoria leaf spot/tomato-plant-is-infected-with-septoria-leaf-spot-1.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_123.jpg,test/Tomato Septoria leaf spot/early-blight-septoria-ls-fig-3.jpg,2
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_126.jpg,train/Tomato Septoria leaf spot/Sept9-300x225.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_127.jpg,train/Tomato Septoria leaf spot/Tom_Sept1.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_134.jpg,train/Tomato Septoria leaf spot/5579e3247db73.image.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_135.jpg,train/Tomato Septoria leaf spot/Septoria_Leaf_Spot.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_138.jpg,train/Tomato Septoria leaf spot/septoria_tomato.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_140.jpg,train/Tomato Septoria leaf spot/tomato-blight-treatment-blight.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_142.jpg,train/Tomato Septoria leaf spot/Septoria-461x346.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_143.jpg,train/Tomato Septoria leaf spot/tomato-septoria-3-500x384.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_2.jpg,test/Tomato Septoria leaf spot/2septoria-tomato.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_21.jpg,train/Tomato Septoria leaf spot/Septoria_Leaf_Spot_of_Tomato2241-450x300.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_23.jpg,train/Tomato Septoria leaf spot/tomato_septoria_alternaria_1.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_25.jpg,train/Tomato Septoria leaf spot/bnX8Q.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_26.jpg,train/Tomato Septoria leaf spot/septoria-leaf-spot-tomatoes1x2400-17g2jzo.jpg,2
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_27.jpg,train/Tomato Septoria leaf spot/tomato-septoria-leaf-spot-600.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_45.jpg,train/Tomato Septoria leaf spot/septoria-tomato-leaf.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_48.jpg,train/Tomato Septoria leaf spot/Septoria-leaf-spot-on-tomato-FOR-WEB.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_49.jpg,train/Tomato Septoria leaf spot/Septoria-Tomato.jpg,6
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_5.jpg,test/Tomato Septoria leaf spot/RARZ4.jpg,6
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_51.jpg,train/Tomato Septoria leaf spot/septoria_leaf_spot_of_tomato-1500x750.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_54.jpg,train/Tomato Septoria leaf spot/septoria_tom_leaves1x1200.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_57.jpg,train/Tomato Septoria leaf spot/5866245865865216.jpeg.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_58.jpg,train/Tomato Septoria leaf spot/sls1.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_61.jpg,train/Tomato Septoria leaf spot/tomato-leaf-spot-septoria-lycopersici-on-a-tomato-leaflet-acg9j5.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_64.jpg,,
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_65.jpg,train/Tomato Septoria leaf spot/septoria-leaf-spot-tomatoes2x2400-202yoxg.jpg,2
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_66.jpg,train/Tomato Septoria leaf spot/septoria-leaf-spot-tomato-1.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_70.jpg,train/Tomato Septoria leaf spot/septorialeafspot.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_75.jpg,train/Tomato Septoria leaf spot/closeup-of-tomato-leaf-y4af51-1024x768.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_79.jpg,train/Tomato Septoria leaf spot/66e7583ebe11cf0bd06435e4167bd4fd.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_81.jpg,train/Tomato Septoria leaf spot/Septoria_Leaf_Spot_of_Tomato186.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_88.jpg,train/Tomato Septoria leaf spot/septoria_tom_seedlings5x1200.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_89.jpg,train/Tomato Septoria leaf spot/Tomato_Septoria_Leaf_Spot.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_9.jpg,test/Tomato Septoria leaf spot/6447731_orig.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_90.jpg,train/Tomato Septoria leaf spot/septorialycopersici_small.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_93.jpg,train/Tomato Septoria leaf spot/tomato-plant-is-infected-with-septoria-leaf-spot.jpg,0
+Tomato___septoria_leaf_spot/plantdoc_Tomato_Septoria_leaf_spot_97.jpg,test/Tomato leaf bacterial spot/tomato_V8.jpg,0
