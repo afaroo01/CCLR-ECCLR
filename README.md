@@ -81,8 +81,11 @@ python scripts/make_clean_plantdoc.py --flagged lists/near_duplicate_pairs.csv \
 
 The file names in these lists follow the renamed PlantDoc copy used for the experiments
 (`data/plantdoc/<class>/plantdoc_<name>_<index>.jpg`). `lists/plantdoc_excluded_original_names.csv`
-maps them to the file names of the original PlantDoc release, and
-`scripts/map_excluded_to_plantdoc.py` recreates that mapping.
+maps them to the file names of the original PlantDoc release (github.com/pratikkayal/PlantDoc-Dataset)
+by perceptual hash: 84 of the 94 images match with a pHash Hamming distance of at most 6, and the
+remaining 10 have no reliable match and are left blank. One excluded Tomato Septoria leaf spot image
+is filed under "Tomato leaf bacterial spot" in the original release.
+`scripts/map_excluded_to_plantdoc.py --max-hamming 6` recreates the mapping.
 
 `lists/near_duplicate_pairs.csv` gives every flagged pair (background image, PlantDoc image,
 pHash Hamming distance, cosine similarity); paths are relative to the class folders. The check
