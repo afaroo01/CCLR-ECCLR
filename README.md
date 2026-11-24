@@ -22,7 +22,7 @@ places the leaves. Both are built once, offline, before training.
 | `scripts/` | Batch runs, statistics, near-duplicate check, clean PlantDoc set, background-swap and ablation datasets |
 | `notebooks/dataset_generation/` | Kaggle notebooks that generated the CCLR and ECCLR datasets |
 | `notebooks/fewshot_dinov2/` | Kaggle notebooks for the DINOv2 few-shot rows of Tables 7 and 8 (frozen backbone, outputs removed) |
-| `lists/` | Background search log, near-duplicate pairs and the PlantDoc images excluded from the clean test set |
+| `lists/` | Background search log, near-duplicate pairs, the PlantDoc images excluded from the clean test set (with their original PlantDoc file names) and the raw DG baseline results |
 | `tests/` | Test suite on synthetic data |
 | `docs/` | Detailed usage guide and code architecture |
 
